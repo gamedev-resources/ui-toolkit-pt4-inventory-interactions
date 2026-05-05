@@ -2,7 +2,7 @@
 
 # Part 4: Inventory Interactions
 
-In this tutorial you'll make the inventory grid interactive. You'll build a drag manipulator with a ghost preview that lets the player pick up items and swap or place them in any slot, wire up UI Toolkit's runtime data binding to drive a hover tooltip directly from `ItemData`, and add drop-target highlighting that toggles a USS class on the slot under the cursor so the player can see exactly where their item will land before they release.
+In this tutorial you'll make the inventory interactive. You'll build a drag manipulator with a ghost preview that lets the player pick up items and swap or place them in any slot, wire up UI Toolkit's runtime data binding to drive a hover tooltip directly from `ItemData`, and add drop-target highlighting that toggles a USS class on the slot under the cursor so the player can see exactly where their item will land before they release.
 
 ## Course
 
