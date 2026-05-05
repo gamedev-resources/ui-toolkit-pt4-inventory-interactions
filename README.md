@@ -2,6 +2,8 @@
 
 # Part 4: Inventory Interactions
 
+<a href="https://www.youtube.com/watch?v=_mzGFTHAWAQ"><img src="image/ui-pt-4.png" alt="Video thumbnail" width="600"></a>
+
 In this tutorial you'll make the inventory interactive. You'll build a drag manipulator with a ghost preview that lets the player pick up items and swap or place them in any slot, wire up UI Toolkit's runtime data binding to drive a hover tooltip directly from `ItemData`, and add drop-target highlighting that toggles a USS class on the slot under the cursor so the player can see exactly where their item will land before they release.
 
 ## Course
@@ -23,9 +25,7 @@ Check out the other parts:
 ## What's Included
 
 - [`starter-project/`](starter-project/) - The starter project to follow along with the tutorial. Includes everything from Part 3 plus the new tooltip UXML/USS, ghost preview USS classes, and an `ItemDragManipulator` skeleton ready to be filled in on camera.
-- `final-project/` - *Coming soon.* Will be added once recording is complete.
-
-> The video thumbnail and YouTube link will also be added to this README after the video is published.
+- `final-project/`
 
 ## Starter Project
 
