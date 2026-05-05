@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Shared/GlobalVariables.uss?fileID=7433441132597879392&amp;guid=e86b5c2a622407b4281df4a5ced1f867&amp;type=3#GlobalVariables"/>
+    <Style src="project://database/Assets/UI/Shared/ItemTooltip.uss?fileID=7433441132597879392&amp;guid=3b2f4ff44fd2b2148abfcb8c2185dfa8&amp;type=3#ItemTooltip"/>
+    <ui:VisualElement name="ItemTooltip" data-source-type="ItemData, Assembly-CSharp">
+        <ui:VisualElement name="tooltip-header" class="tooltip-header">
+            <ui:VisualElement name="item-icon" class="tooltip-icon">
+                <Bindings>
+                    <ui:DataBinding property="style.backgroundImage" data-source-path="icon" data-source="project://database/Assets/Data/Items/Item_Helmet.asset?fileID=11400000&amp;guid=21621862825bf5e45a67f8f2a1e4c478&amp;type=2#Item_Helmet" binding-mode="ToTargetOnce"/>
+                </Bindings>
+            </ui:VisualElement>
+            <ui:VisualElement name="tooltip-header-text" class="tooltip-header-text">
+                <ui:Label name="item-name" class="tooltip-name"/>
+                <ui:Label name="item-category" class="tooltip-category"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label name="item-rarity" class="tooltip-rarity"/>
+        <ui:Label name="item-description" class="tooltip-description"/>
+    </ui:VisualElement>
+</ui:UXML>
