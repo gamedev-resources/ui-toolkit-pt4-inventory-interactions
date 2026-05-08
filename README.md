@@ -24,7 +24,7 @@ Check out the other parts:
 
 ## What's Included
 
-- [`starter-project/`](starter-project/) - The starter project to follow along with the tutorial. Includes everything from Part 3 plus the new tooltip UXML/USS, ghost preview USS classes, and an `ItemDragManipulator` skeleton ready to be filled in on camera.
+- [`starter-project/`](starter-project/) - The starter project to follow along with the tutorial. Includes everything from Part 3 plus the new tooltip UXML/USS, ghost preview USS classes, and an `ItemDragManipulator` skeleton ready to be filled in.
 - `final-project/`
 
 ## Starter Project
