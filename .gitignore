@@ -27,8 +27,10 @@ ExportedObj/
 
 # Auto-generated solution / project files
 *.csproj
+*.csproj.lscache
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user

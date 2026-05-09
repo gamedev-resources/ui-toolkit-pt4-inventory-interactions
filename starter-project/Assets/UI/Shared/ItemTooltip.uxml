@@ -5,7 +5,7 @@
         <ui:VisualElement name="tooltip-header" class="tooltip-header">
             <ui:VisualElement name="item-icon" class="tooltip-icon">
                 <Bindings>
-                    <ui:DataBinding property="style.backgroundImage" data-source-path="icon" data-source="project://database/Assets/Data/Items/Item_Helmet.asset?fileID=11400000&amp;guid=21621862825bf5e45a67f8f2a1e4c478&amp;type=2#Item_Helmet" binding-mode="ToTargetOnce"/>
+                    <ui:DataBinding property="style.backgroundImage" data-source-path="icon" binding-mode="ToTargetOnce"/>
                 </Bindings>
             </ui:VisualElement>
             <ui:VisualElement name="tooltip-header-text" class="tooltip-header-text">
